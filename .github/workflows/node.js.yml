@@ -13,7 +13,7 @@ jobs:
         run: |
           npm install
           npm run build
-      - uses: actions/upload-artifacts@master
+      - uses: actions/upload-artifacts@main
         with:
           name: webpack artifacts
           path: public/
